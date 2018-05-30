@@ -26,7 +26,7 @@ class DashboardViewController: UIViewController {
                 when(fulfilled: api.getSteps(), api.getFairlyActiveMin(), api.getVeryActiveMin())
             }.done { res1, res2, res3 in
                 if res1 == "Renew" || res2 == "Renew" || res3 == "Renew" {
-                    self.logoutAlert(title: "Uh-oh", msg: "Fitbit token has expired. Please re-login.")
+                    self.logoutAlert(title: "Uh-oh", msg: "Fitbit token expired. Please re-login.")
                 }
             }
         }
@@ -61,7 +61,7 @@ class DashboardViewController: UIViewController {
             when(fulfilled: api.getSteps(), api.getFairlyActiveMin(), api.getVeryActiveMin())
         }.done { res1, res2, res3 in
             if res1 == "Renew" || res2 == "Renew" || res3 == "Renew" {
-                self.logoutAlert(title: "Uh-oh", msg: "Fitbit token has expired. Please re-login.")
+                self.logoutAlert(title: "Uh-oh", msg: "Fitbit token expired. Please re-login.")
             }
         }
     }
@@ -70,10 +70,9 @@ class DashboardViewController: UIViewController {
     func logoutAlert(title: String, msg: String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "Logout", style: UIAlertActionStyle.default, handler: { act in
-            _ = SessionManager.shared.logout()
-//            TODO here
-//            self.presentingViewController?.dismiss(animated: true, completion: nil)
             alert.dismiss(animated: true, completion: nil)
+            _ = SessionManager.shared.logout()
+            self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
         }))
         alert.addAction(UIAlertAction(title: "Stay", style: UIAlertActionStyle.default, handler: { act in
             alert.dismiss(animated: true, completion: nil)

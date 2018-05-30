@@ -9,4 +9,5 @@ target 'FitnessCoach' do
     pod 'Alamofire'
     pod 'Charts'
     pod 'PromiseKit'
+    pod 'JWTDecode'
 end

@@ -11,13 +11,17 @@ import Foundation
 class fitbitData {
     static let shared = fitbitData()
     
+    var dates = [String]()
     var steps = [Int]()
-    var activeMin = [Int]()
+    var fairlyActiveMin = [Int]()
+    var veryActiveMin = [Int]()
     
-    // let steps = [7552, 0, 8140, 4103, 0, 2673, 4212]
-    // let activeMin = [36, 0, 74, 29, 0, 0, 38]
+    // active = fairly active + very active
+    func activeMin() -> [Int] {
+        return zip(fairlyActiveMin, veryActiveMin).map(+)
+    }
     
     func activeDays() -> Int {
-        return activeMin.filter{ $0 != 0 }.count
+        return activeMin().filter{ $0 != 0 }.count
     }
 }

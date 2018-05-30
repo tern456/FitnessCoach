@@ -16,7 +16,10 @@ class StatViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         
-        let data = ["Step Count": fitbitData.shared.steps, "Active Minutes": fitbitData.shared.activeMin]
+        let data = fitbitData.shared
+        let dates = data.dates
+        print(dates)
+        let values = ["Step Count": data.steps, "Active Minutes": data.activeMin()]
         
 //        let barChart = BarChartView.init(frame: UIScreen.main.bounds)
         let insets = view.safeAreaInsets
@@ -27,28 +30,33 @@ class StatViewController: UIViewController {
         
         var dataEntries: [BarChartDataEntry] = []
         print(statType ?? "No stat")
-        if (statType == nil || data[statType!] == nil) {
+        if (statType == nil || values[statType!] == nil) {
             print("No such statistic type")
             return
         }
-        print(data)
-        for i in 0 ..< data[statType!]!.count {
-            let dataEntry = BarChartDataEntry.init(x: Double(i), y: Double(data[statType!]![i]))
+        
+        // display content and labeling
+        for i in 0 ..< values[statType!]!.count {
+            let dataEntry = BarChartDataEntry.init(x: Double(i), y: Double(values[statType!]![i]))
             dataEntries.append(dataEntry)
         }
         
         let barChartDataSet = BarChartDataSet(values: dataEntries, label: statType)
         
-        barChartDataSet.valueColors = [UIColor.orange, UIColor.purple]
+        // display options
         barChartDataSet.drawValuesEnabled = true
         barChartDataSet.barBorderWidth = 1
         barChartDataSet.barBorderColor = UIColor.black
         barChartDataSet.colors = [UIColor.orange, UIColor.purple]
+        barChartDataSet.valueColors = [UIColor.orange, UIColor.purple]
         barChartDataSet.highlightColor = UIColor.white
         barChartDataSet.highlightAlpha = 0.5
         
         let barChartData = BarChartData(dataSet: barChartDataSet)
         
+//        barChart.xAxis.drawLabelsEnabled = true
+//        barChart.xAxis.valueFormatter = IndexAxisValueFormatter(values: dates)
+//        barChart.xAxis.granularity = 1
         barChart.data = barChartData
         barChart.drawGridBackgroundEnabled = true
         

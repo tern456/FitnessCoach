@@ -55,7 +55,6 @@ class HomeViewController: UIViewController {
                     if(!SessionManager.shared.store(credentials: credentials)) {
                         print("Failed to store credentials")
                     } else {
-//                        print(credentials.token)
                         SessionManager.shared.storeTokens(credentials.accessToken!, idToken: credentials.idToken!)
                         SessionManager.shared.retrieveProfile { error in
                             DispatchQueue.main.async {

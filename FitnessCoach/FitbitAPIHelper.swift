@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 import PromiseKit
+import JWTDecode
 
 class FitbitAPIHelper {
     static let shared = FitbitAPIHelper()
@@ -40,11 +41,12 @@ class FitbitAPIHelper {
     
     init() {
         data.steps = Array(repeating: 0, count: self.days)
-        data.activeMin = Array(repeating: 0, count: self.days)
+        data.veryActiveMin = Array(repeating: 0, count: self.days)
     }
     
     func getUserID() -> String {
-        return "638HH4"
+        let jwt = try! decode(jwt: SessionManager.shared.credentials!.idToken!)
+        return String(jwt.subject!.split(separator: "|")[1])
     }
     
     // To understand the function below, check this tutorial
@@ -59,14 +61,10 @@ class FitbitAPIHelper {
         return Promise { seal in
             Alamofire.request(url, method: .post, parameters: body, encoding: JSONEncoding.default, headers: headers).responseJSON { resp in
                 if let err = resp.result.error {
-                    // print(err)
                     seal.reject(err)
                 }
                 if let val = resp.result.value as? NSDictionary {
                     self.a0AccessToken = val["access_token"] as? String
-                    // you have to call the function below within the request, because it is asynchronous
-                    // this is called a completion handler
-                    // self.requestFitbitAccessToken(withA0Token: self.a0AccessToken!)
                     seal.fulfill(())
                 }
             }
@@ -80,7 +78,6 @@ class FitbitAPIHelper {
         return Promise { seal in
             Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: headers).responseJSON { resp in
                 if let err = resp.result.error {
-                    // print(err)
                     seal.reject(err)
                 }
                 if let val = resp.result.value as? NSDictionary {
@@ -113,19 +110,17 @@ class FitbitAPIHelper {
     
     func getFitbitData(withURL url: String, for numDays: Int) -> Promise<String> {
         let headers = ["Authorization": "Bearer " + accessToken!]
-        print(url)
+        // print(url)
         return Promise { seal in
             Alamofire.request(url, method: .get, headers: headers).responseJSON {resp in
                 if let err = resp.result.error {
-                    // print(err)
                     seal.reject(err)
                 }
                 if let val = resp.result.value as? NSDictionary {
-                    print(val)
+                    // print(val)
                     if let errors = val["errors"] as? NSArray {
                         if let dict = errors[0] as? NSDictionary, dict["errorType"] as? String == "expired_token" {
                             print("Token expired, renewing...")
-                            // self.renewFitbitToken(withA0Token: self.a0AccessToken!)
                             seal.fulfill("Renew")
                         }
                     }
@@ -134,24 +129,29 @@ class FitbitAPIHelper {
                         for i in 0..<log.count {
                             if let day = log[i] as? NSDictionary {
                                 self.data.steps[i] += Int(day["value"] as! String)!
+                                let yyyymmdd = day["dateTime"] as! String
+                                self.data.dates.append(String(yyyymmdd.split(separator: "-", maxSplits: 1, omittingEmptySubsequences: true)[1]))
+//                                let formatter = DateFormatter()
+//                                formatter.dateFormat = "yyyy-mm-dd"
+//                                self.data.dates.append(formatter.date(from: day["dateTime"] as! String)!)
                             }
                         }
                         seal.fulfill("Normal")
                     }
                     if let log = val["activities-minutesFairlyActive"] as? NSArray {
-                        self.data.activeMin = Array(repeating: 0, count: self.days)
+                        self.data.fairlyActiveMin = Array(repeating: 0, count: self.days)
                         for i in 0..<log.count {
                             if let day = log[i] as? NSDictionary {
-                                self.data.activeMin[i] += Int(day["value"] as! String)!
+                                self.data.fairlyActiveMin[i] += Int(day["value"] as! String)!
                             }
                         }
                         seal.fulfill("Normal")
                     }
                     if let log = val["activities-minutesVeryActive"] as? NSArray {
-                        self.data.activeMin = Array(repeating: 0, count: self.days)
+                        self.data.veryActiveMin = Array(repeating: 0, count: self.days)
                         for i in 0..<log.count {
                             if let day = log[i] as? NSDictionary {
-                                self.data.activeMin[i] += Int(day["value"] as! String)!
+                                self.data.veryActiveMin[i] += Int(day["value"] as! String)!
                             }
                         }
                         seal.fulfill("Normal")
@@ -167,11 +167,13 @@ class FitbitAPIHelper {
         return accessToken != nil
     }
     
-    //    MARK: The functions below should not be called before they are fixed
+    
+    
+    
+    //    MARK: The functions below should not be called until they are fixed
     
     //    TODO: Refreshing is not available, due to auth0 missing the "refresh_token" key
     func renewFitbitToken(withA0Token token: String) {
-        let userID = getUserID()
         let url = (a0APIPage + "users/fitbit|" + userID).addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let headers = ["Authorization": "Bearer \(token)"]
         Alamofire.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: headers).responseJSON { resp in
