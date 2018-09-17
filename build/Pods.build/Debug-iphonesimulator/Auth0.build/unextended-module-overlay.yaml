@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/kevinli/Desktop/FitnessCoach/build/Debug-iphonesimulator/Auth0/Auth0.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/kevinli/Desktop/FitnessCoach/build/Pods.build/Debug-iphonesimulator/Auth0.build/unextended-module.modulemap',
+    }]
+  }]
+}

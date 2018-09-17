@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "86ca617244631adf69a609c1d9558062"
+build_time: [1530127266, 654224000]
+inputs:
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/AFError.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/Alamofire.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/MultipartFormData.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/Notifications.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/ParameterEncoding.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/Request.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/Response.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/ResponseSerialization.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/Result.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/SessionDelegate.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/SessionManager.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/TaskDelegate.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/Timeline.swift": [1529418867, 0]
+  "/Users/kevinli/Desktop/FitnessCoach/Pods/Alamofire/Source/Validation.swift": [1529418867, 0]

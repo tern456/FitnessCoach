@@ -8,6 +8,8 @@
 
 import UIKit
 
+var repeated = false;
+
 class QuestionViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -31,7 +33,33 @@ class QuestionViewController: UIViewController {
         }
     }
     
-
+    @IBAction func gotoQ9(_ sender: UIButton) {
+        print(fitbitData.shared.activeSteps())
+        if (fitbitData.shared.activeSteps() < goalSteps){
+            performSegue(withIdentifier: "gotoQ9.1", sender: sender);
+        } else {
+            performSegue(withIdentifier: "gotoQ9.2", sender: sender);
+        }
+    }
+    
+    @IBAction func gotoHowCome1(_ sender: UIButton) {
+        performSegue(withIdentifier: "gotoHowCome1", sender: sender)
+    }
+    @IBAction func gotoQ7(_ sender: UIButton) {
+        performSegue(withIdentifier: "gotoQ6", sender: sender)
+    }
+    
+    let goalSteps = 8500
+    let randomNum = Int(arc4random_uniform(9))
+    
+    
+    @IBOutlet var GoodLabel: UILabel!{
+        didSet{
+            GoodLabel.text = "From your tracker it looks like you used the tracker more than 5 days this past week. " + goodPhrases[randomNum]  + " Do you think you can keep up the good work?"
+        }
+    }
+    
+    
     /*
     // MARK: - Navigation
 

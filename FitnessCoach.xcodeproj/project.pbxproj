@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E1AD46F20E56C4B0065E55E /* Question13_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AD46E20E56C4B0065E55E /* Question13_1ViewController.swift */; };
+		1E1AD47120E56C980065E55E /* Question13_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AD47020E56C980065E55E /* Question13_2ViewController.swift */; };
+		1E1AD47320E68BE00065E55E /* Question17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1AD47220E68BE00065E55E /* Question17ViewController.swift */; };
+		1E37575F20F7B348006A185E /* RemindersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E37575E20F7B348006A185E /* RemindersViewController.swift */; };
+		1E7D0CE420DC196000683834 /* HowComeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D0CE320DC196000683834 /* HowComeViewController.swift */; };
+		1E7D0CEA20DC292000683834 /* WhyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D0CE920DC292000683834 /* WhyViewController.swift */; };
+		1E7D0CEF20E198CD00683834 /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D0CEE20E198CD00683834 /* RepeatViewController.swift */; };
+		1E7D0CF120E2ABB700683834 /* Question9_1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D0CF020E2ABB700683834 /* Question9_1ViewController.swift */; };
+		1E7D0CF320E2B72200683834 /* Question9_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D0CF220E2B72200683834 /* Question9_2ViewController.swift */; };
+		1E83FFC220EBF430000C1B2B /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83FFC120EBF430000C1B2B /* AccountSettingsViewController.swift */; };
+		1E83FFC420EE74BE000C1B2B /* LocalPushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83FFC320EE74BE000C1B2B /* LocalPushManager.swift */; };
+		1E83FFC620EE985E000C1B2B /* HowCome3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83FFC520EE985E000C1B2B /* HowCome3ViewController.swift */; };
+		1E83FFC820EE9879000C1B2B /* Question24ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83FFC720EE9879000C1B2B /* Question24ViewController.swift */; };
+		1E92E59220E3F34D00DEC996 /* MotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E92E59120E3F34D00DEC996 /* MotivationViewController.swift */; };
+		1E92E59420E3FA6A00DEC996 /* Repeat2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E92E59320E3FA6A00DEC996 /* Repeat2ViewController.swift */; };
+		1E92E59620E417F800DEC996 /* HowCome2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E92E59520E417F800DEC996 /* HowCome2ViewController.swift */; };
+		1EADF4EC20EFD5D5003462C5 /* GlobalVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EADF4EB20EFD5D5003462C5 /* GlobalVars.swift */; };
+		1ED7541B20F520DC007F36F2 /* DailyQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7541A20F520DC007F36F2 /* DailyQViewController.swift */; };
 		34004904204719C400AB49B9 /* StatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34004903204719C400AB49B9 /* StatViewController.swift */; };
 		34B29B4520A377A7004042DE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B29B4420A377A7004042DE /* DashboardViewController.swift */; };
 		34EA128920A25507004E28F3 /* FitbitAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA128820A25507004E28F3 /* FitbitAPIHelper.swift */; };
@@ -27,6 +45,24 @@
 
 /* Begin PBXFileReference section */
 		1A97BB270D2AB3E78A76FC86 /* Pods-FitnessCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessCoach.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitnessCoach/Pods-FitnessCoach.release.xcconfig"; sourceTree = "<group>"; };
+		1E1AD46E20E56C4B0065E55E /* Question13_1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question13_1ViewController.swift; sourceTree = "<group>"; };
+		1E1AD47020E56C980065E55E /* Question13_2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question13_2ViewController.swift; sourceTree = "<group>"; };
+		1E1AD47220E68BE00065E55E /* Question17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question17ViewController.swift; sourceTree = "<group>"; };
+		1E37575E20F7B348006A185E /* RemindersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersViewController.swift; sourceTree = "<group>"; };
+		1E7D0CE320DC196000683834 /* HowComeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowComeViewController.swift; sourceTree = "<group>"; };
+		1E7D0CE920DC292000683834 /* WhyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyViewController.swift; sourceTree = "<group>"; };
+		1E7D0CEE20E198CD00683834 /* RepeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
+		1E7D0CF020E2ABB700683834 /* Question9_1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question9_1ViewController.swift; sourceTree = "<group>"; };
+		1E7D0CF220E2B72200683834 /* Question9_2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question9_2ViewController.swift; sourceTree = "<group>"; };
+		1E83FFC120EBF430000C1B2B /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
+		1E83FFC320EE74BE000C1B2B /* LocalPushManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushManager.swift; sourceTree = "<group>"; };
+		1E83FFC520EE985E000C1B2B /* HowCome3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowCome3ViewController.swift; sourceTree = "<group>"; };
+		1E83FFC720EE9879000C1B2B /* Question24ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question24ViewController.swift; sourceTree = "<group>"; };
+		1E92E59120E3F34D00DEC996 /* MotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationViewController.swift; sourceTree = "<group>"; };
+		1E92E59320E3FA6A00DEC996 /* Repeat2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat2ViewController.swift; sourceTree = "<group>"; };
+		1E92E59520E417F800DEC996 /* HowCome2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowCome2ViewController.swift; sourceTree = "<group>"; };
+		1EADF4EB20EFD5D5003462C5 /* GlobalVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVars.swift; sourceTree = "<group>"; };
+		1ED7541A20F520DC007F36F2 /* DailyQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQViewController.swift; sourceTree = "<group>"; };
 		34004903204719C400AB49B9 /* StatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewController.swift; sourceTree = "<group>"; };
 		34B29B4420A377A7004042DE /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		34EA128820A25507004E28F3 /* FitbitAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitbitAPIHelper.swift; sourceTree = "<group>"; };
@@ -101,8 +137,8 @@
 			children = (
 				5F699A081DAFD9EC007D51F3 /* Auth0.plist */,
 				51E4B6B11D0B4819000D9038 /* AppDelegate.swift */,
-				51A8A0B71D0B4C07000E53CC /* HomeViewController.swift */,
 				51A8A0B91D0B4C0C000E53CC /* ProfileViewController.swift */,
+				51A8A0B71D0B4C07000E53CC /* HomeViewController.swift */,
 				51E4B6B51D0B4819000D9038 /* Main.storyboard */,
 				34004903204719C400AB49B9 /* StatViewController.swift */,
 				51E4B6B81D0B4819000D9038 /* Assets.xcassets */,
@@ -116,6 +152,24 @@
 				34B29B4420A377A7004042DE /* DashboardViewController.swift */,
 				34EF21A320B3844000419276 /* AuthorizationCodeGrantFlow.swift */,
 				34EF21A520B3869600419276 /* FitnessCoach-Bridging-Header.h */,
+				1E7D0CE320DC196000683834 /* HowComeViewController.swift */,
+				1E7D0CE920DC292000683834 /* WhyViewController.swift */,
+				1E7D0CEE20E198CD00683834 /* RepeatViewController.swift */,
+				1E7D0CF020E2ABB700683834 /* Question9_1ViewController.swift */,
+				1E7D0CF220E2B72200683834 /* Question9_2ViewController.swift */,
+				1E92E59120E3F34D00DEC996 /* MotivationViewController.swift */,
+				1E92E59320E3FA6A00DEC996 /* Repeat2ViewController.swift */,
+				1E92E59520E417F800DEC996 /* HowCome2ViewController.swift */,
+				1E1AD46E20E56C4B0065E55E /* Question13_1ViewController.swift */,
+				1E1AD47020E56C980065E55E /* Question13_2ViewController.swift */,
+				1E1AD47220E68BE00065E55E /* Question17ViewController.swift */,
+				1E83FFC120EBF430000C1B2B /* AccountSettingsViewController.swift */,
+				1E83FFC320EE74BE000C1B2B /* LocalPushManager.swift */,
+				1E83FFC520EE985E000C1B2B /* HowCome3ViewController.swift */,
+				1E83FFC720EE9879000C1B2B /* Question24ViewController.swift */,
+				1EADF4EB20EFD5D5003462C5 /* GlobalVars.swift */,
+				1ED7541A20F520DC007F36F2 /* DailyQViewController.swift */,
+				1E37575E20F7B348006A185E /* RemindersViewController.swift */,
 			);
 			path = FitnessCoach;
 			sourceTree = "<group>";
@@ -154,7 +208,7 @@
 				TargetAttributes = {
 					51E4B6AD1D0B4819000D9038 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 8BU5G59M34;
+						DevelopmentTeam = 3RG2J26HCD;
 						LastSwiftMigration = 0930;
 					};
 				};
@@ -245,17 +299,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E92E59420E3FA6A00DEC996 /* Repeat2ViewController.swift in Sources */,
+				1E92E59220E3F34D00DEC996 /* MotivationViewController.swift in Sources */,
 				51E4B6B21D0B4819000D9038 /* AppDelegate.swift in Sources */,
 				51F8D0A11D1DC3D800BA17B9 /* AlertController+Loading.swift in Sources */,
+				1E1AD47120E56C980065E55E /* Question13_2ViewController.swift in Sources */,
 				51A8A0BA1D0B4C0C000E53CC /* ProfileViewController.swift in Sources */,
+				1E83FFC820EE9879000C1B2B /* Question24ViewController.swift in Sources */,
+				1E7D0CEF20E198CD00683834 /* RepeatViewController.swift in Sources */,
 				5B05D4AC1E439B51009D9955 /* SessionManager.swift in Sources */,
+				1E83FFC620EE985E000C1B2B /* HowCome3ViewController.swift in Sources */,
 				34EF21A420B3844000419276 /* AuthorizationCodeGrantFlow.swift in Sources */,
 				34EF51F620A3580700BC7DAD /* FitbitData.swift in Sources */,
+				1ED7541B20F520DC007F36F2 /* DailyQViewController.swift in Sources */,
 				34004904204719C400AB49B9 /* StatViewController.swift in Sources */,
 				51A8A0B81D0B4C07000E53CC /* HomeViewController.swift in Sources */,
 				34B29B4520A377A7004042DE /* DashboardViewController.swift in Sources */,
+				1E1AD46F20E56C4B0065E55E /* Question13_1ViewController.swift in Sources */,
+				1E7D0CEA20DC292000683834 /* WhyViewController.swift in Sources */,
+				1E7D0CF320E2B72200683834 /* Question9_2ViewController.swift in Sources */,
+				1E1AD47320E68BE00065E55E /* Question17ViewController.swift in Sources */,
+				1EADF4EC20EFD5D5003462C5 /* GlobalVars.swift in Sources */,
+				1E7D0CE420DC196000683834 /* HowComeViewController.swift in Sources */,
+				1E7D0CF120E2ABB700683834 /* Question9_1ViewController.swift in Sources */,
+				1E83FFC220EBF430000C1B2B /* AccountSettingsViewController.swift in Sources */,
 				34EF51F420A354E900BC7DAD /* QuestionViewController.swift in Sources */,
+				1E37575F20F7B348006A185E /* RemindersViewController.swift in Sources */,
 				34EA128920A25507004E28F3 /* FitbitAPIHelper.swift in Sources */,
+				1E92E59620E417F800DEC996 /* HowCome2ViewController.swift in Sources */,
+				1E83FFC420EE74BE000C1B2B /* LocalPushManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +452,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_LDFLAGS[arch=*]" = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 8BU5G59M34;
+				DEVELOPMENT_TEAM = 3RG2J26HCD;
 				INFOPLIST_FILE = FitnessCoach/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -411,7 +484,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 8BU5G59M34;
+				DEVELOPMENT_TEAM = 3RG2J26HCD;
 				INFOPLIST_FILE = FitnessCoach/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

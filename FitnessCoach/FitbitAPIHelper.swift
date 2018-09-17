@@ -108,16 +108,21 @@ class FitbitAPIHelper {
         return getFitbitData(withURL: url, for: days)
     }
     
+    func getFriendsData() -> Promise<String> {
+        let url = fitbitAPIPage + userID + "/friends.json"
+        return getFitbitData(withURL: url, for: days)
+    }
+    
     func getFitbitData(withURL url: String, for numDays: Int) -> Promise<String> {
         let headers = ["Authorization": "Bearer " + accessToken!]
-        // print(url)
+        print(url)
         return Promise { seal in
             Alamofire.request(url, method: .get, headers: headers).responseJSON {resp in
                 if let err = resp.result.error {
                     seal.reject(err)
                 }
                 if let val = resp.result.value as? NSDictionary {
-                    // print(val)
+                    print(val)
                     if let errors = val["errors"] as? NSArray {
                         if let dict = errors[0] as? NSDictionary, dict["errorType"] as? String == "expired_token" {
                             print("Token expired, renewing...")

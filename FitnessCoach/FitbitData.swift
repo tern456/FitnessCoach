@@ -21,7 +21,24 @@ class fitbitData {
         return zip(fairlyActiveMin, veryActiveMin).map(+)
     }
     
+    func countActiveMin() -> Int{
+        return (zip(fairlyActiveMin, veryActiveMin).map(+)).reduce(0,+)/7
+    }
+    
     func activeDays() -> Int {
         return activeMin().filter{ $0 != 0 }.count
+    }
+    
+    func activeSteps() -> Int{
+        var counter = 0
+        for integers in steps{
+            counter += integers
+        }
+        return counter/7
+    }
+    
+    func dailyActiveSteps() -> Int{
+        let daily = activeMin().last
+        return daily!
     }
 }

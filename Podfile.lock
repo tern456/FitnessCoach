@@ -26,7 +26,7 @@ DEPENDENCIES:
   - SimpleKeychain
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Auth0
     - Charts
@@ -44,4 +44,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 9c424fd3715869b3755f1da8835d07437b76272e
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

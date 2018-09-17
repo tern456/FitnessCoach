@@ -8,6 +8,7 @@
 
 import UIKit
 import PromiseKit
+import UserNotifications
 
 class DashboardViewController: UIViewController {
 
@@ -15,6 +16,8 @@ class DashboardViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        LocalPushManager.sharedNotification.requestNotification();
+        
         let api = FitbitAPIHelper.shared
         if !api.hasToken() {
             _ =
@@ -66,6 +69,24 @@ class DashboardViewController: UIViewController {
         }
     }
     
+    @IBAction func gotoLogOut(_ sender: UIButton) {
+        self.logoutAlert(title: "Log Out", msg: "Are you sure you want to log out?")
+    }
+    
+    @IBAction func gotoAccountSettings(_ sender: UIButton) {
+        performSegue(withIdentifier: "gotoAccountSettings", sender: sender)
+
+    }
+    
+    @IBAction func gotoDaily(_ sender: UIButton) {
+        if (accHolder == ""){
+            performSegue(withIdentifier: "gotoNewAccount", sender: sender)
+        }
+        else{
+            performSegue(withIdentifier: "gotoDaily", sender: sender)
+        }
+    }
+    
     // Show this when token expires
     func logoutAlert(title: String, msg: String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: UIAlertControllerStyle.alert)
@@ -79,6 +100,7 @@ class DashboardViewController: UIViewController {
         }))
         self.present(alert, animated: true, completion: nil)
     }
+    
 
     /*
     // MARK: - Navigation

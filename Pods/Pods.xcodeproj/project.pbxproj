@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00E153632A414101E0A66AE23569802B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9787116D6A7EE677D7B925B1D574F6 /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		00EEC522617F8540BE9F8D09D67291E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */; };
 		01321911C6D8D063392B2D2BE0C7D8F0 /* A0SimpleKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B888C76C208985DEA9D944DC0067FA /* A0SimpleKeychain.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		016DD8EBA92F06AEF2C6582DF9A00B13 /* DataApproximator+N.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB49712A5374C32ECD3B1022746F45C /* DataApproximator+N.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		01B42A7F99460BFEB22BF9F5131E6051 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466DE83D4E37C16D241E0E6E265CB73A /* Platform.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -30,9 +29,10 @@
 		0C076193AAE8718D60BDB003BC7BA036 /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500197B97DEB91BFCA164C5033B3E7E /* Transformer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0C53BAF3443D764FFDF9625EC6866D24 /* JSONObjectPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1874009E969D38A207192F51FF8B9 /* JSONObjectPayload.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0DB96FD5E9A7F1D74051522B1ED7EAEF /* TriangleShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10195EC3A0D7A4CCAAEAA94C796FEFD /* TriangleShapeRenderer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0E2D55D7C2F4A6C360C744DB68C4D296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */; };
 		0F46EE7F341177527DDB3B99842F9BB6 /* SimpleKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DC0E836BD31D7E020CD1E0BCB5723 /* SimpleKeychain-dummy.m */; };
+		0FCA7D7876E65C4D7DFB9E3E0EFFB171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */; };
 		109140B49339A0089305217BC473DB6A /* PieChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEEBB58F654A31E20B9D6AD281FC37E /* PieChartDataEntry.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		10CC9B72D70DEE12CA9DC75D7B547C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */; };
 		11880B5BEF957D14C13530D7114603DE /* SafariSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D24A86F4D776F5729462CA1DC060A /* SafariSession.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1234FFF07B205F714A043796D66C94E4 /* CustomStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87ABD0C2C41CABB4E90971657C5CB1E2 /* CustomStringConvertible.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		131BF80747B006DAFD6B9B8AD5EF6DB5 /* AuthenticationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAACB294D5AA3154E009DAF974AA386 /* AuthenticationError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -52,6 +52,7 @@
 		1C835D39D31ECB04DE8F2041481BD6B2 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FCA81BE50F1D7200185ED7581BF6EC /* JWT.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1C9AF59D1DEC70164683A1B4382697A6 /* LineRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB70D23DCDE1AB80B1B2102F0A583E43 /* LineRadarChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1D1DB8F61939232D9EBBCEBDD041023D /* BarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AE08AD8A8B02722CD98F12A21F12F1 /* BarChartRenderer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1D77958EE94B889E4A3AE817C7EDD09E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */; };
 		1EDB59F95B1F5E14907DBEB2A15EE1E9 /* ScatterChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947B37B3A8C587ED9616E212E526FC26 /* ScatterChartRenderer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1FC852BEC0A5DF0C9B27AB6382A46C26 /* DataApproximator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E07D4E68CB570A815B93E4E70BD4C0 /* DataApproximator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		204944D67267632DD7CD4BEFB60AC389 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0980D4CE589F7F9A51EDF3E923C681D6 /* Response.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -76,11 +77,11 @@
 		315A721862D989EBCEA48D042766799E /* ChartBaseDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB472CE26F0DB13B5F540F8BC5AD01D9 /* ChartBaseDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		321B8EBAA4F1E3ADB76C09DB65009220 /* Thenable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B75F162E4C687291BD0836AB0F89BA4 /* Thenable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3259BD723E5C4FA3C227CAF3C8E0C5BC /* Auth0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E33764B5ED06DC4A2B86826DA1D7CF /* Auth0.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		34018CB72B29BDDA357587EDE799CBFA /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED50FE6ADF1DA898C68D140F729DD59E /* SafariServices.framework */; };
 		343B30C989188B77FB1149FED753A63C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164F0451B3E488B56C363DED86FD2018 /* ServerTrustPolicy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		346916A816CB08A97B60B173C5B2C07F /* WebAuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA1D85CC07E197AC0CDB3932AC6B99 /* WebAuthError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		34FDB9CA3D9F8C303910708D49452507 /* IHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202D71A0C1726C070066D83EB546A54 /* IHighlighter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3528C46544B139B84A4C506003651CD1 /* IndexAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A36C822F0F30E8E9FCB7F12036EB1DE /* IndexAxisValueFormatter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		35A8E0F0B99DC039B75688609BE8723C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */; };
 		362E0C0A476925A4A369DCEDC592262F /* JWTDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F8C61B41387AEB4E8A630D3FC87F1 /* JWTDecode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		369EF55CD514B3FE092BED77FEE904CB /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD84EE3D07B6565F5C59EDF1288C082 /* Resolver.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		36FF829DB56829A5DC58556AA512B9FC /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6BA9152172478CCD20E0CD42F4AC5 /* AuthSession.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -117,8 +118,6 @@
 		57C8352C30E555DAB6C48D60E3A16767 /* CombinedHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9293AE813AC2F6433700A559388701AA /* CombinedHighlighter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		58812AABBC0A1E7AE019752424DF31A7 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E998643C3B81ADF8B943488196749DB1 /* MultipartFormData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		58C8F90976C9ADCB8B0FB0BE4C83D171 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6E246242D3BB405EF587FF98FB7BCB /* NSNotificationCenter+AnyPromise.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		58F36355EBA0C36C414CC9A518542593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5277BAED32B8C687D95B016DEBC0ACEE /* UIKit.framework */; };
-		5944E2D024536025780592F98790B795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */; };
 		5A549602850208D90D9485D10A03B264 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7928715538F72646A15F1AA0CFCDA910 /* AnyPromise.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5BB7ABB7247C5BABD2D2DC65748877F3 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62601CB791EDFD425B83900A30266265 /* Requestable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5BDA53A8D5F9CDAC10D87952D947DA1F /* ChevronUpShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8644DAB86342EA96E0B6E1E193570BBF /* ChevronUpShapeRenderer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -137,6 +136,7 @@
 		65A23A4E04D054DB4639AB9849CF71F1 /* AnimatedZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25CBF856D96AA4A2CFBA43987CDF544 /* AnimatedZoomViewJob.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		66023EBF3E6F4EC0D0A58D7CD69376ED /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5219BD2A41D719E1E5629085F195D49 /* Telemetry.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		668223B0C2ADC47CEF5B02239282DCD3 /* DefaultAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13F47E7E7BAB11D257FB00783039F8E /* DefaultAxisValueFormatter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		67D9A3185ABF8ADCC03A892602FDD231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */; };
 		6805A31AC56F3F4822294007048E6732 /* ChartLimitLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AC9BCEEFA15B2A6AF5965AF1BF7F3 /* ChartLimitLine.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		68B8D7E4F90ADFC40FA36307B7B78271 /* Auth0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 796FBC459E61EAE39B3461176CED8919 /* Auth0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		697F39E0FC579CC9A6CD4D3FEF1EFB51 /* CandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96501D7F46B8A1F3C761F1FDDF05C00B /* CandleChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -145,6 +145,7 @@
 		6A738D52B9CD5BF88E3AE73B9EE5A8CD /* Pods-FitnessCoach-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E264E4A4E55816EB3EE2B2DEEF9286 /* Pods-FitnessCoach-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B2EF0D48B66520FF6BAE1E99F5B7A57 /* AxisBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5DB4BAF3C36ED095AB5B0579C9F4D6 /* AxisBase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6C0519D8426B1018323B42133E03784D /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3C917AACF09FBB58405404139D92AE /* UIView+AnyPromise.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6E2D49342F3759AA610B75D5281E2168 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04E7971E7868A343743C51968B8A07E /* SafariServices.framework */; };
 		6F40A0B6E6ABD2E1598697C60875C132 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC58648020D412875D0F512A63AA40 /* AuthProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6FF0AB3D400C1BFB24014E3869C99F2B /* WebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71FF2FA1ACC8928F417AFFB59C3866 /* WebAuth.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6FF36BF4FBFA2AD2A894E743CCC53205 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853EEC8A5FDFD638C7F3FF50F59DB5EF /* LineChartView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -153,7 +154,6 @@
 		70F389C5441333C0296285DBFDA1CF49 /* Auth0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CD7FDA6F34E27F6DB4F3222D66E0F1 /* Auth0-dummy.m */; };
 		71D83BC0D0678C4C568E364E71276F56 /* firstly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B871400057735EBBC774C8E538B2CD /* firstly.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		72F344328CA70C52E4648B7A76E9ECB1 /* ChartHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506AD42281428FA07AD813D415A63CAD /* ChartHighlighter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */; };
 		74D5753681DCF50BE9BBB427E2C5E62B /* A0SimpleKeychain+KeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1843F3D928CB9B48DBEF453BC0329F /* A0SimpleKeychain+KeyPair.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		74F59A495F0402B924D54C5F7CDA1C9F /* ChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB1D41977E4682BA897B82F31517D06 /* ChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		772EC705F2400CF06C61771F27A124A8 /* AnimatedMoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B84996A2CAE02590E9C90C8B7C6F6B /* AnimatedMoveViewJob.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -172,9 +172,9 @@
 		7E8836C3C2C2E38A01A06B4E6BD608BC /* IChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4FA139C41892517AE20AF699EECC8F /* IChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7ED13136A8B8043E60585A895C1A17C0 /* PieHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33B39D11D3343E608AEA73E49070274 /* PieHighlighter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		800F27EF8F7C1E5FE4997C68D5BE9C7C /* ILineChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C69FE2797A91E1326355C7E88916D /* ILineChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		805C26328E942629D7243E5059372CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */; };
 		80F0173D20A40B3EE3E2822B857F3835 /* UserPatchAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F521B0C2D9359BAF34E94C609EABF1 /* UserPatchAttributes.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8145409EFE4438AF020631873AFC8498 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7456983DC528DFB10457D60EC7BA1AC8 /* NSTask+AnyPromise.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */; };
 		872215B7EF6EF9CEF19E2B6ACB402C8E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55ACFC1F9CD02D4E466462550822F25 /* Request.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		888C8C9F0DC89F8C5BC264C57F2856B2 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A69B26A1A7EBC27BB49E9D25BC176C9 /* Credentials.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		88BAE48542121DA7F03E8C3CC7B34EB6 /* BubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F4E86A12DCFF37F026B0D063E64F6 /* BubbleChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -194,15 +194,15 @@
 		962D791C382FD788766AF3DF21667937 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E12E1A7DF89949DA718172651B25DA /* NSURLSession+Promise.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9746A6B34763ACBE09BA074BAAD1C873 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B53BEC01B2F8824A856487BD742E965 /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98022D1600D56CC5017A3BAC58E7778A /* JWTDecode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26058CF29DE2F39E5776E5196DFBEB1D /* JWTDecode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		980C5A715FFB8C65676396996E4DEBEA /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07260F355A111CFFD8C18FC1B8350D48 /* LocalAuthentication.framework */; };
 		981EFF1371FCE40F1907DA262743B93E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337CDAB54BE52063C596005D8A30982C /* Notifications.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		98D8A7D4F383744210A09E282FD3DB9E /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EA6C083B0358995172B1D89ACBFC6 /* NSNotificationCenter+Promise.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9996AF137C9BB6BF7F3BEFA5EA6F5A0D /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBE1648D742E069B638C956095A1EC4 /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B0FF272913EFE71FC460F76671326C7 /* XAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274C3F8B90651907A9620B31FDAFB85A /* XAxis.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9C1207943A388D3079B3DE3BE650E4DB /* Guarantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F4903991C76F308C4B70828230B132 /* Guarantee.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E699B89F951437407DE06C637E5A4B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */; };
 		9FFB6DD22E8DBD0070DDAC9EC9CBB931 /* Auth0Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E0E2DC035A12CF40E29CC3CE6DC2FA /* Auth0Error.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A248B91F4920CC4B071CB7436F496E74 /* CombinedChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421FABFD925D2F2E7D46357E2143AE2 /* CombinedChartDataProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A26F4D1353F41B40EEF4F4049ACD4EBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5277BAED32B8C687D95B016DEBC0ACEE /* UIKit.framework */; };
-		A3753DF2FCAE7286ADD06858579F85D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */; };
 		A3D4951C1944D1B001B51A4D35339531 /* BubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97566831240378370439E15E989AC9 /* BubbleChartDataProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A547F5229897670857826A9F12FC3B18 /* IPieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A02B64CC631508F05C0CF9BA488459 /* IPieChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A75280AFCE10DD84D056BBE1053BABF6 /* Auth0Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C5F96CD1C50E8AC8AC1263D28173A8 /* Auth0Authentication.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -248,7 +248,6 @@
 		CE474FD281FA10F9F82E58DDA51F2623 /* ILineScatterCandleRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C375B0612E4744576F7E3946EBB8D /* ILineScatterCandleRadarChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CE4BF0B092D806502284B77733216761 /* IFillFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8A7C111D0C3BF72899A19F7E0A3A8E /* IFillFormatter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CF358E070982BE3713C8A9F32ECAD078 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272A66DCE991926A1BC1B04E4B1DB316 /* Deprecations.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CF8259D3F591674DD8D797C4AE93A27E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */; };
 		D13F83C310C532A648E95A91C2C6F9BC /* PieRadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB456F1795E7F6AED5DCA35248B9C73 /* PieRadarHighlighter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D21C8DE360A2E159CA4C3BFCFD7B3787 /* BubbleChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB6ED310429758F19F8C1B0E437C587 /* BubbleChartRenderer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D21DE5D493ABD3DA1881999F40C65B38 /* CandleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C482B00C0B6CC394EBF668ED418756AD /* CandleChartDataProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -262,6 +261,7 @@
 		D894034E1B2F9EB3FE05020AA0D59946 /* ChevronDownShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C494BC4DD2CD5882940FC3BE8D0F8E2C /* ChevronDownShapeRenderer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D9A217E7550CDCFAB588030E2FC8A360 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7600F0AECEDB54EE30EAC09C64259CC /* when.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DC38FEB09B913AD440A23BCF78EFA373 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 0386CC2FF02B875F303CAC927C1413AB /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3FBAC6FD170CF6C39D823B90FC3228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3941FF748841CAF7DF6251396BA571DB /* UIKit.framework */; };
 		DD2DAA21C4010371C1B48BD63E6B9A3B /* ChartDataRendererBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C98DB243C3E602CA732AC8CA8BB7FB /* ChartDataRendererBase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DDCFEB7A5ED7C2FD39B8D4221AABAD8B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E4F296597BAD65D239547268C0CCE4 /* Users.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E00055BECFB5213EB693BF0D5B0BCD8A /* ViewPortJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65F37C21EE404664CDA52AD5C69DDA /* ViewPortJob.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -278,6 +278,7 @@
 		F2428E7EE7368957E5D97932AEAFEE5F /* NSError+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F2448FE2D80C9D27D2D85A518C03C4 /* NSError+Helper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F2D977871697617D2927C4CFC6B02513 /* IBarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A5042A21672DAEC078B7905F40BA80 /* IBarChartDataSet.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F465F9218A96692286B3810B22E9C669 /* ComponentBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82ED5A2B3929B5FF2AAEDEF4BE034B /* ComponentBase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F46B374642E4DC93F328E46AE3F40B4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3941FF748841CAF7DF6251396BA571DB /* UIKit.framework */; };
 		F5135DB0F03DC7AC5242E46421539656 /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F216C17957EE25E6366E19F4C548F4 /* ChartAnimationEasing.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F5165977FE90B2B1893DE643BF5553E8 /* ChartDataEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49085502AA48BAE3450CE9FA045BB8B /* ChartDataEntryBase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F6931CFF319F81CB2E5B48547FA84257 /* CombinedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EEEDA243CE850E199573C27633C790 /* CombinedChartView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -287,7 +288,6 @@
 		FA287EBED7AB17519D777078A2021E42 /* BarLineScatterCandleBubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7F00B15405229561887954FFECB0A /* BarLineScatterCandleBubbleChartDataProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FB1F1C8BF9CA43B38BAC5BC6B6F6AA98 /* AnimatedViewPortJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC3812B15AEF61F85369C0618BEEEA8 /* AnimatedViewPortJob.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FC2B7887B0F0ABFF59B7B173E568F3C4 /* IAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B16FFDEFBE3BC806EFA9FBFDE2DBDB8 /* IAxisValueFormatter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FC859EBA60096932C55AE6E065E375FF /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C0719FF8D6BFEF53A6177963724F5A /* LocalAuthentication.framework */; };
 		FF111CEA90517E8F739F9A25ABC10673 /* CandleStickChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F46E336BD552648E7BECA843BA6DA /* CandleStickChartView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
@@ -354,6 +354,7 @@
 		05A528ADB4013EDCE90F4C4B84FB66F7 /* TransactionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionStore.swift; path = Auth0/TransactionStore.swift; sourceTree = "<group>"; };
 		05F7D4825BFD179A4B256946E6AC9172 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
 		06446F62AC0932E019DD064DEEC07866 /* Auth0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Auth0.modulemap; sourceTree = "<group>"; };
+		07260F355A111CFFD8C18FC1B8350D48 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
 		076ABC94BED69BD48FD85B29C9EB0CD6 /* LineChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataProvider.swift; path = Source/Charts/Interfaces/LineChartDataProvider.swift; sourceTree = "<group>"; };
 		08DCE41A39827C3343CE40ACECC5781C /* A0SimpleKeychain+KeyPair.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "A0SimpleKeychain+KeyPair.h"; path = "SimpleKeychain/A0SimpleKeychain+KeyPair.h"; sourceTree = "<group>"; };
 		0980D4CE589F7F9A51EDF3E923C681D6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -388,7 +389,6 @@
 		2421FABFD925D2F2E7D46357E2143AE2 /* CombinedChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartDataProvider.swift; path = Source/Charts/Interfaces/CombinedChartDataProvider.swift; sourceTree = "<group>"; };
 		2427F7684C0BFE0D41CF1EE35BEF5D68 /* ViewPortHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewPortHandler.swift; path = Source/Charts/Utils/ViewPortHandler.swift; sourceTree = "<group>"; };
 		245944C4E0145E56676DE29D68BA21D2 /* ChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartViewBase.swift; path = Source/Charts/Charts/ChartViewBase.swift; sourceTree = "<group>"; };
-		24C0719FF8D6BFEF53A6177963724F5A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/LocalAuthentication.framework; sourceTree = DEVELOPER_DIR; };
 		25727A78BEBFFB3A4C129F320FC446D3 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
 		26058CF29DE2F39E5776E5196DFBEB1D /* JWTDecode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWTDecode-umbrella.h"; sourceTree = "<group>"; };
 		26588742FD3DBA9DC3B457BB9AF82EF9 /* ILineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineRadarChartDataSet.swift; sourceTree = "<group>"; };
@@ -415,6 +415,7 @@
 		3464817AD0FB764AB657BCDDDF3ECEEC /* CrossShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/CrossShapeRenderer.swift; sourceTree = "<group>"; };
 		36DCB1477F004A7EF7FEB6F716D3FB95 /* ICandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICandleChartDataSet.swift; path = Source/Charts/Data/Interfaces/ICandleChartDataSet.swift; sourceTree = "<group>"; };
 		37E33764B5ED06DC4A2B86826DA1D7CF /* Auth0.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auth0.swift; path = Auth0/Auth0.swift; sourceTree = "<group>"; };
+		3941FF748841CAF7DF6251396BA571DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		396E0F8DD0CE556DD980ECC7ADEF5EED /* Handlers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handlers.swift; path = Auth0/Handlers.swift; sourceTree = "<group>"; };
 		39CD7FDA6F34E27F6DB4F3222D66E0F1 /* Auth0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Auth0-dummy.m"; sourceTree = "<group>"; };
 		3B4D38D45B294414A16D70C7A1861061 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
@@ -444,7 +445,6 @@
 		506AD42281428FA07AD813D415A63CAD /* ChartHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartHighlighter.swift; path = Source/Charts/Highlight/ChartHighlighter.swift; sourceTree = "<group>"; };
 		50C2F709CED14E779DCBB299CFEB7C4E /* Loggable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loggable.swift; path = Auth0/Loggable.swift; sourceTree = "<group>"; };
 		515EB89D59434AA09CC67566333D45DA /* MarkerImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkerImage.swift; path = Source/Charts/Components/MarkerImage.swift; sourceTree = "<group>"; };
-		5277BAED32B8C687D95B016DEBC0ACEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		527A9284330013BDC6E7D403A30214D6 /* ManagementError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagementError.swift; path = Auth0/ManagementError.swift; sourceTree = "<group>"; };
 		532B3EF0705E7CB94A3F143D57143D9A /* BarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/BarChartDataEntry.swift; sourceTree = "<group>"; };
 		541C375B0612E4744576F7E3946EBB8D /* ILineScatterCandleRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineScatterCandleRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineScatterCandleRadarChartDataSet.swift; sourceTree = "<group>"; };
@@ -530,7 +530,6 @@
 		95E13CDAE77E5594DB144CC4226C7354 /* PieChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartRenderer.swift; path = Source/Charts/Renderers/PieChartRenderer.swift; sourceTree = "<group>"; };
 		96111E0C1824052FA0BA4E271018B4E4 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		96501D7F46B8A1F3C761F1FDDF05C00B /* CandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift; sourceTree = "<group>"; };
-		96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		96FCA81BE50F1D7200185ED7581BF6EC /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = JWTDecode/JWT.swift; sourceTree = "<group>"; };
 		9713E2B496F94860DB2206B473959A63 /* XAxisRendererHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRendererHorizontalBarChart.swift; path = Source/Charts/Renderers/XAxisRendererHorizontalBarChart.swift; sourceTree = "<group>"; };
 		9A65F37C21EE404664CDA52AD5C69DDA /* ViewPortJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewPortJob.swift; path = Source/Charts/Jobs/ViewPortJob.swift; sourceTree = "<group>"; };
@@ -544,6 +543,7 @@
 		9DB1D41977E4682BA897B82F31517D06 /* ChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataSet.swift; sourceTree = "<group>"; };
 		9F55B61A3B638A3FF91E66C00EFEA7BF /* PieChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartData.swift; path = Source/Charts/Data/Implementations/Standard/PieChartData.swift; sourceTree = "<group>"; };
 		9FB6CA7BE8FF432537C53C7438820940 /* CombinedChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartData.swift; path = Source/Charts/Data/Implementations/Standard/CombinedChartData.swift; sourceTree = "<group>"; };
+		A04E7971E7868A343743C51968B8A07E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
 		A0EC298A7F4C744D8C13DA1D507E9F3B /* Auth0.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Auth0.h; path = Auth0/Auth0.h; sourceTree = "<group>"; };
 		A1C98DB243C3E602CA732AC8CA8BB7FB /* ChartDataRendererBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataRendererBase.swift; path = Source/Charts/Renderers/ChartDataRendererBase.swift; sourceTree = "<group>"; };
 		A1F521B0C2D9359BAF34E94C609EABF1 /* UserPatchAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserPatchAttributes.swift; path = Auth0/UserPatchAttributes.swift; sourceTree = "<group>"; };
@@ -586,6 +586,7 @@
 		C14743B5EC2DDE769B802BA50FCACBB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C17A733E7943575F8864A0BD6C33DBFB /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Auth0/Response.swift; sourceTree = "<group>"; };
 		C1B888C76C208985DEA9D944DC0067FA /* A0SimpleKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = A0SimpleKeychain.m; path = SimpleKeychain/A0SimpleKeychain.m; sourceTree = "<group>"; };
+		C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C482B00C0B6CC394EBF668ED418756AD /* CandleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataProvider.swift; path = Source/Charts/Interfaces/CandleChartDataProvider.swift; sourceTree = "<group>"; };
 		C494BC4DD2CD5882940FC3BE8D0F8E2C /* ChevronDownShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChevronDownShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/ChevronDownShapeRenderer.swift; sourceTree = "<group>"; };
 		C5A7EBB343E05C4BAD03CDFE16FE20BA /* IBarLineScatterCandleBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBarLineScatterCandleBubbleChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBarLineScatterCandleBubbleChartDataSet.swift; sourceTree = "<group>"; };
@@ -636,7 +637,6 @@
 		E9EA593E3923E33E2A4C08F40254DF91 /* BioAuthentication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BioAuthentication.swift; path = Auth0/BioAuthentication.swift; sourceTree = "<group>"; };
 		EBFE9A72F8FE5C9C80AAB9BD44DAEBED /* LineRadarRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarRenderer.swift; path = Source/Charts/Renderers/LineRadarRenderer.swift; sourceTree = "<group>"; };
 		EC8A7C111D0C3BF72899A19F7E0A3A8E /* IFillFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IFillFormatter.swift; path = Source/Charts/Formatters/IFillFormatter.swift; sourceTree = "<group>"; };
-		ED50FE6ADF1DA898C68D140F729DD59E /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SafariServices.framework; sourceTree = DEVELOPER_DIR; };
 		EFA092EE559F3783042B0CE37886A134 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		F0F8583D295E4CF72BF9C16C172425C1 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
 		F16D2A327B0DC4C30927F5E144F03734 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
@@ -666,7 +666,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5944E2D024536025780592F98790B795 /* Foundation.framework in Frameworks */,
+				35A8E0F0B99DC039B75688609BE8723C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,7 +674,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2D55D7C2F4A6C360C744DB68C4D296 /* Foundation.framework in Frameworks */,
+				10CC9B72D70DEE12CA9DC75D7B547C11 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,8 +682,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3753DF2FCAE7286ADD06858579F85D1 /* Foundation.framework in Frameworks */,
-				58F36355EBA0C36C414CC9A518542593 /* UIKit.framework in Frameworks */,
+				67D9A3185ABF8ADCC03A892602FDD231 /* Foundation.framework in Frameworks */,
+				F46B374642E4DC93F328E46AE3F40B4D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,7 +691,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,7 +699,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805C26328E942629D7243E5059372CF5 /* Foundation.framework in Frameworks */,
+				9E699B89F951437407DE06C637E5A4B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,11 +707,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8259D3F591674DD8D797C4AE93A27E /* Foundation.framework in Frameworks */,
-				FC859EBA60096932C55AE6E065E375FF /* LocalAuthentication.framework in Frameworks */,
-				34018CB72B29BDDA357587EDE799CBFA /* SafariServices.framework in Frameworks */,
+				0FCA7D7876E65C4D7DFB9E3E0EFFB171 /* Foundation.framework in Frameworks */,
+				980C5A715FFB8C65676396996E4DEBEA /* LocalAuthentication.framework in Frameworks */,
+				6E2D49342F3759AA610B75D5281E2168 /* SafariServices.framework in Frameworks */,
 				B2ADB4E3C5B915239EE6E2EB2110D50F /* SimpleKeychain.framework in Frameworks */,
-				A26F4D1353F41B40EEF4F4049ACD4EBB /* UIKit.framework in Frameworks */,
+				DC3FBAC6FD170CF6C39D823B90FC3228 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,24 +719,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00EEC522617F8540BE9F8D09D67291E5 /* Foundation.framework in Frameworks */,
+				1D77958EE94B889E4A3AE817C7EDD09E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1189704DAA3E3DA287439261F52CB2EE /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				96E74B85A221F03973FDA707EB8FDAD8 /* Foundation.framework */,
-				24C0719FF8D6BFEF53A6177963724F5A /* LocalAuthentication.framework */,
-				ED50FE6ADF1DA898C68D140F729DD59E /* SafariServices.framework */,
-				5277BAED32B8C687D95B016DEBC0ACEE /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		168239F2A063D7464AC665AFC89A2ADD /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -883,7 +872,7 @@
 			isa = PBXGroup;
 			children = (
 				AA68C3729A24CCCB96CB2AB637FB550F /* SimpleKeychain.framework */,
-				1189704DAA3E3DA287439261F52CB2EE /* iOS */,
+				492C3E2CEBB398DBD56F4121A74D4735 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -996,6 +985,17 @@
 			);
 			name = Charts;
 			path = Charts;
+			sourceTree = "<group>";
+		};
+		492C3E2CEBB398DBD56F4121A74D4735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C436732A6E834FAE748E0AB0B3F8528B /* Foundation.framework */,
+				07260F355A111CFFD8C18FC1B8350D48 /* LocalAuthentication.framework */,
+				A04E7971E7868A343743C51968B8A07E /* SafariServices.framework */,
+				3941FF748841CAF7DF6251396BA571DB /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		4D7ED9C666DC7404549AC026C5F807AA /* Pods */ = {
